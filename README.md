@@ -1,4 +1,4 @@
-📱 MyAndroidApp
+📱 TaskOne Application
 A modern Android application built with Kotlin, Jetpack Compose, Room Database, and MVVM architecture.
 
 ✨ Features
@@ -19,19 +19,17 @@ A modern Android application built with Kotlin, Jetpack Compose, Room Database, 
 ✅ Navigation with Jetpack Compose
 
 🛠️ Tech Stack
-Technology	Purpose
-Kotlin	Programming language
-Jetpack Compose	UI toolkit for modern Android UI
-MVVM Architecture	Clean architecture & separation of concerns
-Room Database	Local persistence
-Navigation Compose	In-app navigation
-Hilt / Koin (Optional)	Dependency Injection
-Material 3	Design components
+
+* Technology Purpose
+* Kotlin Programming language
+* Jetpack Compose UI toolkit for modern Android UI
+* MVVM Architecture Clean architecture & separation of concerns
+* Room Database Local persistence
+* Navigation Compose In-app navigation
+* Hilt / Koin (Optional)    Dependency Injection
+* Material 3 Design components
 
 📂 Project Structure
-bash
-Copy
-Edit
 com.yourappname
 ├── data/
 │   ├── local/             # Room DB: DAO, Entities
@@ -51,27 +49,16 @@ com.yourappname
 Prerequisites
 Android Studio (Hedgehog or newer recommended)
 
-Kotlin 1.9+
-
-Gradle 8.x
+1. Kotlin 1.9+
+2. Gradle 8.x
 
 Setup Instructions
 Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/MyAndroidApp.git
+git clone https://github.com/codebyyosry/TaskOne
 Open the project in Android Studio.
 
 Sync Gradle and Run the app:
-
-bash
-Copy
-Edit
 ./gradlew build
-📸 Screenshots
-Add screenshots or a demo GIF here when ready.
 
 🧰 Useful Commands
 Command	Description
@@ -85,6 +72,12 @@ This project is licensed under the MIT License. See the LICENSE file for details
 🙌 Acknowledgments
 Jetpack Compose
 
-Room Database
+* Room Database
 
-Material Design
+* Material Design
+
+* Retrofit
+
+* Navigation Compose
+
+* Dependency Injection Hilt
