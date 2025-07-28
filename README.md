@@ -1,4 +1,4 @@
-##📱 TaskOne Application
+## 📱 TaskOne Application
 A modern Android application built with Kotlin, Jetpack Compose, Room Database, and MVVM architecture.
 
 ✨ Features
