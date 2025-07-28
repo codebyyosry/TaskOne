@@ -81,3 +81,9 @@ Jetpack Compose
 * Navigation Compose
 
 * Dependency Injection Hilt
+
+
+## 🖼️ Screenshots
+
+### User Flow:
+/screenshots/user_flow.png
