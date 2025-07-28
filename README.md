@@ -1,5 +1,5 @@
-## 📱 TaskOne Application
-A modern Android application built with Kotlin, Jetpack Compose, Room Database, and MVVM architecture.
+# 📱 TaskOne Application
+## A modern Android application built with Kotlin, Jetpack Compose, Room Database, and MVVM architecture.
 
 ✨ Features
 ✅ Splash Screen
@@ -18,7 +18,7 @@ A modern Android application built with Kotlin, Jetpack Compose, Room Database, 
 
 ✅ Navigation with Jetpack Compose
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * Technology Purpose
 * Kotlin Programming language
@@ -29,7 +29,7 @@ A modern Android application built with Kotlin, Jetpack Compose, Room Database, 
 * Hilt / Koin (Optional)    Dependency Injection
 * Material 3 Design components
 
-📂 Project Structure
+## 📂 Project Structure
 com.yourappname
 ├── data/
 │   ├── local/             # Room DB: DAO, Entities
@@ -45,7 +45,7 @@ com.yourappname
 ├── viewmodel/             # ViewModels per screen
 ├── utils/                 # Utility classes, constants
 └── MainActivity.kt        # App entry point
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 Android Studio (Hedgehog or newer recommended)
 
@@ -60,17 +60,17 @@ Open the project in Android Studio.
 Sync Gradle and Run the app:
 ./gradlew build
 
-🧰 Useful Commands
+## 🧰 Useful Commands
 Command	Description
 ./gradlew build	Builds the project
 ./gradlew clean	Cleans the build directory
 ./gradlew test	Runs unit tests
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🙌 Acknowledgments
-Jetpack Compose
+## 🙌 Acknowledgments
+### Jetpack Compose
 
 * Room Database
 
