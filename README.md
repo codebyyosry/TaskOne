@@ -85,7 +85,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 🖼️ Screenshots
 
-### User Flow:
-![User Flow](screenshots/user_flow.png)
+### User Flow: ![User Flow](screenshots/user_flow.png)
 <img width="1920" height="1080" alt="user_flow" src="https://github.com/user-attachments/assets/f27ce2b4-b580-4f75-872e-37b9dec00fcc" />
 
