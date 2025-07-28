@@ -86,4 +86,4 @@ Jetpack Compose
 ## 🖼️ Screenshots
 
 ### User Flow:
-/screenshots/user_flow.png
+![User Flow](screenshots/home_screen.png)
