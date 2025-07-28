@@ -87,3 +87,4 @@ Jetpack Compose
 
 ### User Flow:
 ![User Flow](screenshots/home_screen.png)
+<img width="1920" height="1080" alt="user_flow" src="https://github.com/user-attachments/assets/fe427944-fa2f-4637-9322-696af1a6c406" />
