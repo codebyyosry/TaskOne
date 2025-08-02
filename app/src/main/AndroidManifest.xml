@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_app_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskOne"
+        android:name=".TaskOneApp"
         tools:targetApi="31">
 
         <activity
