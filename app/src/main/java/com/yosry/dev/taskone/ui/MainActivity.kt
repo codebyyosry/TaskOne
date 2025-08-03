@@ -1,4 +1,4 @@
-package com.yosry.dev.taskone
+package com.yosry.dev.taskone.ui
 
 import android.os.Build
 import android.os.Bundle
@@ -36,4 +36,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-

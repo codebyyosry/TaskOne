@@ -1,4 +1,4 @@
-package com.yosry.dev.taskone.data.model
+package com.yosry.dev.taskone.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -7,7 +7,7 @@ import com.yosry.dev.taskone.domain.model.User
 
 
 @Entity(tableName = "users")
-data class UserDto(
+data class UserEntity(
     @PrimaryKey val id: Long,
     @SerializedName("name") val name: String,
     @SerializedName("email") val email: String,
@@ -18,7 +18,7 @@ data class UserDto(
     val avatarUri: String? = null
 )
 
-fun UserDto.toDomain(): User = User(
+fun UserEntity.toDomain(): User = User(
     id = id,
     name = name,
     email = email,
@@ -28,7 +28,7 @@ fun UserDto.toDomain(): User = User(
     avatarUri = avatarUri
 )
 
-fun User.toDto(): UserDto = UserDto(
+fun User.toDto(): UserEntity = UserEntity(
     id = id,
     name = name,
     email = email,

@@ -1,6 +1,6 @@
 package com.yosry.dev.taskone.domain.model
 
-import com.yosry.dev.taskone.data.model.UserDto
+import com.yosry.dev.taskone.data.local.entity.UserEntity
 
 data class User(
     val id: Long,
@@ -14,8 +14,8 @@ data class User(
 )
 
 
-fun User.toUpdateRequestDto(password: String? = null): UserDto {
-    return UserDto(
+fun User.toUpdateRequestDB(password: String? = null): UserEntity {
+    return UserEntity(
         id = id,
         name = this.name,
         email = this.email,

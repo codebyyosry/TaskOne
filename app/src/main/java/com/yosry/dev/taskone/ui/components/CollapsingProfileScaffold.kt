@@ -151,8 +151,8 @@ fun CollapsingProfileScaffoldPinnedSimplePreview() {
                 selectedTabIndex = selectedTab,
                 onTabSelected = { selectedTab = it },
                 onBackClick = { /* Handle back */ },
-                backgroundImage = painterResource(id = R.drawable.app_logo), // Your image here
-                avatarImage = painterResource(id = R.drawable.app_logo) // Your avatar here
+                backgroundImage = painterResource(id = R.drawable.ic_app_logo), // Your image here
+                avatarImage = painterResource(id = R.drawable.ic_app_logo) // Your avatar here
             ) { selectedTabIndex ->
                 Column {
                     repeat(30) { i ->

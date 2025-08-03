@@ -10,6 +10,8 @@ plugins {
 
 
     alias(libs.plugins.ksp)
+
+    alias(libs.plugins.hilt.android) // <-- ADD THIS LINE (or your specific alias)
 }
 
 android {
@@ -149,4 +151,7 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler) // Replace with KSP if needed
     implementation(libs.androidx.hilt.navigation.compose)
+
+    // Coil for image loading in Compose
+    implementation(libs.coil.compose)
 }

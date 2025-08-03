@@ -1,9 +1,8 @@
 package com.yosry.dev.taskone.ui.screens.auth.otp
 
+import com.yosry.dev.taskone.ui.core.UiStatus
+
 data class OTPUiState(
     val otp: Int,
-    val isLoading: Boolean,
-    val isSuccess: Boolean,
-    val isError: Boolean,
-    val errorMessage: String?
+    val status: UiStatus = UiStatus.Idle
 )

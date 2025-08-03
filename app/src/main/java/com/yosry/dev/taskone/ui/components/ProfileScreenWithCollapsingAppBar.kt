@@ -78,7 +78,7 @@ fun ProfileScreenWithCollapsingAppBar() {
                         .height(imageHeight)
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.app_logo), // replace with your image
+                        painter = painterResource(id = R.drawable.ic_app_logo), // replace with your image
                         contentDescription = null,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier.fillMaxSize()
@@ -93,7 +93,7 @@ fun ProfileScreenWithCollapsingAppBar() {
                         .fillMaxWidth(), verticalAlignment = Alignment.CenterVertically
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.app_logo), // replace with your avatar
+                        painter = painterResource(id = R.drawable.ic_app_logo), // replace with your avatar
                         contentDescription = null,
                         modifier = Modifier
                             .size(avatarSizeExpanded)

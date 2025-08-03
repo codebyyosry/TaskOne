@@ -1,5 +1,7 @@
 package com.yosry.dev.taskone.ui.screens.auth.register
 
+import com.yosry.dev.taskone.ui.core.UiStatus
+
 data class RegisterUiState(
     val name: String = "",
     val email: String = "",
@@ -8,7 +10,6 @@ data class RegisterUiState(
     val age: Int = 0,
     val gender: String = "",
     val phoneNumber: String = "",
-    val isLoading: Boolean = false,
-    val isSuccess: Boolean = false,
-    val isError: Boolean = false,
+    val status: UiStatus = UiStatus.Idle
+
 )
