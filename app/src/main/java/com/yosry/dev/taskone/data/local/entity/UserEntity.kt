@@ -28,7 +28,7 @@ fun UserEntity.toDomain(): User = User(
     avatarUri = avatarUri
 )
 
-fun User.toDto(): UserEntity = UserEntity(
+fun User.toEntity(): UserEntity = UserEntity(
     id = id,
     name = name,
     email = email,
